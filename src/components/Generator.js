@@ -16,7 +16,7 @@ const Generator = ({ data }) => {
 
     let paragraphs = "";
     minData.forEach((phrase) => {
-      paragraphs += phrase += "\n\n\n";
+      paragraphs += phrase += "\n";
     });
 
     setToDisplay(paragraphs);

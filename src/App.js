@@ -7,7 +7,7 @@ function App() {
 
   return (
     <main>
-      <h1>TIRED OF BORING LOREM IPSUM?</h1>
+      <h3>TIRED OF BORING LOREM IPSUM?</h3>
       <Generator data={text} />
     </main>
   );
